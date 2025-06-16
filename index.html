@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="Grasping Force Estimation in Markerless Visuo-Tactile Sensors">
-  <meta property="og:title" content="Grasping Force Estimation in Markerless Visuo-Tactile Sensors"/>
-  <meta property="og:description" content="Grasping Force Estimation in Markerless Visuo-Tactile Sensors"/>
+  <meta name="description" content="Touch-based Effector Control to Track 3D Surfaces">
+  <meta property="og:title" content="Touch-based Effector Control to Track 3D Surfaces"/>
+  <meta property="og:description" content="Touch-based Effector Control to Track 3D Surfaces"/>
   <meta property="og:url" content="URL OF THE WEBSITE"/>
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
   <meta property="og:image" content="static/images/EKFdiagramICINCO.png" />
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Grasping Force Estimation in Markerless Visuo-Tactile Sensors</title>
+  <title>Touch-based Effector Control to Track 3D Surfaces</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -62,14 +62,20 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Grasping Force Estimation in Markerless Visuo-Tactile Sensors</h1>
+            <h1 class="title is-1 publication-title">Touch-based Effector Control to Track 3D Surfaces</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                Julio Castaño-Amorós,
+                Edison Velasco-Sanchez*,
+              </span>
+              <span class="author-block">
+                Julio Castaño-Amoros,
               </span>
               <span class="author-block">
                 Pablo Gil,
+              </span>
+              <span class="author-block">
+                Fernando Torres
               </span>
             </div>
 
@@ -78,15 +84,15 @@
             </div>
 
             <div class="is-size-8 publication-authors">
-              <span class="author-block"><a href="mailto:julio.ca@ua.es" target="_blank">julio.ca@ua.es</a></span>
-              <span class="author-block"><a href="mailto:pablo.gil@ua.es" target="_blank">pablo.gil@ua.es</a></span>
+              *<span class="author-block"><a href="mailto:edison.velasco@ua.es" target="_blank">edison.velasco@ua.es</a></span>
+
             </div>
 
             <div class="column has-text-centered">
               <div class="publication-links">
                     <!-- Paper link -->
                 <span class="link-block">
-                  <a href="https://ieeexplore.ieee.org/document/10740944" target="_blank"
+                  <a href="https://aurova-projects.github.io/Touch-based_3d_surfaces/" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="fas fa-file-pdf"></i>
@@ -95,9 +101,9 @@
                 </a>
               </span>
               
-              <div class="column has-text-centered">
-              <div class="publication-links">
-                    <!-- Paper link -->
+              <!-- <div class="column has-text-centered">
+              <div class="publication-links"> -->
+                    <!-- Paper link
                 <span class="link-block">
                   <a href="https://arxiv.org/abs/2410.22825" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
@@ -106,9 +112,10 @@
                   </span>
                   <span>arXiv</span>
                 </a>
-              </span>
+              </span> -->
+
               
-               <span class="link-block">
+               <!-- <span class="link-block">
                   <a href="https://drive.google.com/file/d/1PawPChehDrno9N-2y3GUPzb6A2acdLBl/view?usp=sharing" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -116,11 +123,11 @@
                   </span>
                   <span>Dataset</span>
                 </a>
-              </span>
+              </span> -->
 
             <!-- Github link -->
             <span class="link-block">
-              <a href="https://github.com/AUROVA-LAB/applications/tree/main/app_force_estimation" target="_blank"
+              <a href="https://aurova-projects.github.io/Touch-based_3d_surfaces/" target="_blank"
                 class="external-link button is-normal is-rounded is-dark">
                 <span class="icon">
                   <i class="fab fa-github"></i>
@@ -184,7 +191,7 @@
       <!-- Paper video. -->
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-        <h2 class="title is-3">Examples of grasping force estimation</h2>
+        <h2 class="title is-3">Examples of effector control on 3d Surfaces</h2>
           
           <div class="publication-video">
             <!-- Youtube embed code here -->
@@ -207,8 +214,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-           Tactile sensors have been used for force estimation in the past, especially Vision-Based Tactile Sensors (VBTS) have recently become a new trend due to their high spatial resolution and low cost. In this work, we have designed and implemented several approaches to estimate the normal grasping force using different types of markerless visuotactile representations obtained from VBTS. Our main goal is to determine the most appropriate visuotactile representation, based on a performance analysis during robotic grasping tasks. Our proposal has been tested on the dataset generated with our DIGIT sensors and another one obtained using GelSight Mini sensors from another state-of-the-art work. We have also tested the generalization capabilities of our best approach, called RGBmod. The results led to two main conclusions. First,
-the RGB visuotactile representation is a better input option than the depth image or a combination of the two for estimating normal grasping forces. Second, RGBmod achieved a good performance when tested on 10 unseen everyday objects in real-world scenarios, achieving an average relative error of 0.125 ± 0.153. Furthermore, we show that our proposal outperforms other works in the literature that use RGB and depth information for the same task.
+            This paper presents a touch-based control method for tracking 3D surfaces in robotic finishing tasks, specifically for the footwear industry. Our method combines a normal force controller and an orientation controller, both based on the forces feedback from a tactile sensor with nine contact points. The controller regulates the contact force and the orientation of a tool mounted on a robotic end-effector by generating velocity commands in Cartesian space, which allows the robot to adapt the tool pose according to the interaction with the surface. The system does not require a predefined position trajectory, instead it generates velocity commands. The results show the controller's capability to maintain a constant contact force with an error of 0.229±0.169 [N] when testing with a real shoe, and it adapts to unknown surfaces with different curvatures and slopes. 
           </p>
         </div>
       </div>
@@ -221,9 +227,9 @@ the RGB visuotactile representation is a better input option than the depth imag
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-        <img src="static/images/esquema.png" alt="" class="center" width="60%" height=auto/>
+        <img src="static/images/diagrama_kinova.png" alt="" class="center" width="60%" height=auto/>
         <h2 class="subtitle has-text-centered">
-          Diagram of our grasping force estimation method.
+          Our robotic setup-up is composed of a 7-DoF Kinova Gen3 robotic arm and a Contactile PapillArray sensor.
         </h2>
 </div>
 </div>
@@ -253,16 +259,7 @@ the RGB visuotactile representation is a better input option than the depth imag
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>
-@ARTICLE{10740944,
-  author={Castaño-Amoros, Julio and Gil, Pablo},
-  journal={IEEE Sensors Journal}, 
-  title={Grasping Force Estimation for Markerless Visuotactile Sensors}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={1-1},
-  keywords={Force;Sensors;Grasping;Visualization;Image sensors;Three-dimensional displays;Tactile sensors;Robots;Optical sensors;Estimation;Tactile sensing;Force prediction;Grasping Force},
-  doi={10.1109/JSEN.2024.3489052}}
+@ARTICLE{Coming soon}
     </code></pre>
     </div>
 </section>
